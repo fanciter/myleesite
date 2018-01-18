@@ -1,4 +1,4 @@
-package com.fanciter.myleesite.moudle.user;
+package com.fanciter.myleesite.module.user.entity;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
@@ -7,6 +7,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
 
+/**
+ * 用户类
+ * <p>Title:SysUser</p>
+ * <p>Description: </p>
+ *
+ * @author  fanciter
+ * @version 1.0.0
+ * @create  2018/1/18 0018 下午 5:26
+ **/
 @Table(name = "sys_user")
 public class SysUser {
     /**

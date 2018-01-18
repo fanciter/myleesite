@@ -11,6 +11,7 @@
         <module>myleesite-database</module>
         <module>myleesite-dependencies</module>
         <module>myleesite-module</module>
+        <module>myleesite-parent</module>
     </modules>
     <packaging>pom</packaging>
 

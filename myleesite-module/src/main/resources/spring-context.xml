@@ -3,9 +3,13 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- 使用 Annotation 自动注册Bean -->
-    <context:component-scan base-package="com.fanciter.myleesite" />
+    <!-- 使用 Annotation 自动注册 Bean，在主容器中不扫描 @Controller 注解，在 SpringMVC 中只扫描 @Controller 注解。-->
+    <context:component-scan base-package="com.fanciter.myleesite">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
 
     <import resource="classpath:spring-context-druid.xml" />
     <import resource="classpath:spring-context-mybatis.xml" />
+    <import resource="classpath:spring-context-kaptcha.xml" />
+    <import resource="classpath:spring-context-shiro.xml" />
 </beans>
