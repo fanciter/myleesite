@@ -10,6 +10,7 @@
     <modules>
         <module>myleesite-database</module>
         <module>myleesite-dependencies</module>
+        <module>myleesite-module</module>
     </modules>
     <packaging>pom</packaging>
 

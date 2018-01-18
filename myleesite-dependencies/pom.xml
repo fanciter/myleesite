@@ -52,7 +52,6 @@
         <bitwalker.version>1.20</bitwalker.version>
         <google-kaptcha.version>0.0.9</google-kaptcha.version>
         <apache-shiro.version>1.4.0</apache-shiro.version>
-
     </properties>
 
     <dependencyManagement>
