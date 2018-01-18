@@ -8,6 +8,8 @@
     <artifactId>myleesite</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
+        <module>myleesite-database</module>
+        <module>myleesite-dependencies</module>
     </modules>
     <packaging>pom</packaging>
 
