@@ -11,5 +11,4 @@
     <import resource="classpath:spring-context-druid.xml" />
     <import resource="classpath:spring-context-mybatis.xml" />
     <import resource="classpath:spring-context-kaptcha.xml" />
-    <import resource="classpath:spring-context-shiro.xml" />
 </beans>
